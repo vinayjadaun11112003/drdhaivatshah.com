@@ -12,6 +12,9 @@ body{
 html{
     scroll-behavior:smooth;
 }
+.btn-phone{
+    display:hidden;
+}
 #Frame-container{
    
     height:19000px;
@@ -24,6 +27,9 @@ html{
 }
 .navbarm{
     display:none;
+}
+.button-kyd{
+    visibility: hidden;  border-radius: 50px;position:absolute;top:50px;right:20px; outline:none;border: center;background: #f88f18;height: 70px;display: flex;align-items: center;justify-content: center;text-align:center;width:250px;cursor: pointer;
 }
 .navbar{
     width:100%;
@@ -2018,6 +2024,10 @@ i.fa-brands:hover{
         margin:0;
       
     }
+    .button-kyd{
+        visibility: visible;  border-radius: 50px;position:absolute;top:50px;right:20px; outline:none;border: center;background: #f88f18;height: 70px;display: flex;align-items: center;justify-content: center;text-align:center;width:250px;cursor: pointer;
+    }
+
     #preloader{
         background:url(DKSlog.jpg) no-repeat center center;
         z-index:100;
@@ -2436,7 +2446,9 @@ i.fa-brands:hover{
     
     }
     /* Hero page */
-
+    .btn-phone{
+        display:block;
+    }
     /* hall of fame page */
     .halloffame{
         height:2200px;
@@ -4170,6 +4182,10 @@ display:none;
         cursor:pointer;
      
     }
+    .button-kyd{
+        visibility: hidden;  border-radius: 50px;position:absolute;top:50px;right:20px; outline:none;border: center;background: #f88f18;height: 70px;display: flex;align-items: center;justify-content: center;text-align:center;width:250px;cursor: pointer;
+    }
+
     .description button:hover{
         background-color:rgb(242, 135, 5);
         letter-spacing:2px;
@@ -4383,6 +4399,9 @@ display:none;
             margin-top:10px;
             margin-left:50px;
         }
+        .btn-phone{
+            display:hidden;
+        }
         #research-paperss{
             height:1370px;
             width:91%;
@@ -4504,6 +4523,9 @@ display:none;
        
        
     
+    }
+    .button-kyd{
+        visibility: hidden;  border-radius: 50px;position:absolute;top:50px;right:20px; outline:none;border: center;background: #f88f18;height: 70px;display: flex;align-items: center;justify-content: center;text-align:center;width:250px;cursor: pointer;
     }
 
     .text{
@@ -4717,5 +4739,8 @@ display:none;
             text-align: justify;
             /* border:1px solid red; */
             margin-top:10px;
+        }
+        .btn-phone{
+            display:hidden;
         }
 }
