@@ -17,7 +17,7 @@ html{
 }
 #Frame-container{
    
-    height:19000px;
+    height:24000px;
     width:100%;
     background-color:rgb(255, 255, 255);
     display:flex;
@@ -967,6 +967,149 @@ display:none;
 }
 
 /* awards */
+
+
+
+
+
+
+/* training section */
+.training{
+    height:3800px;
+    MARGIN-TOP:50PX;
+    width:98%;
+    /* border:1px solid red; */
+    background-color:rgb(247, 245, 240);
+    display:flex;
+    align-items:center;
+    /* justify-content:center; */
+    flex-direction:column;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+ 
+  }
+  #title-006{
+      font-size:50px;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing:5px;
+      color:rgb(169, 168, 168);
+      margin-bottom:30px;
+      margin-top:100px;
+      text-transform: uppercase;
+      text-align: center;
+      
+  }
+  #training-main-img{
+      background-image:url(award.png);
+      background-size:cover;
+      background-position:center;
+      height:400px;
+      width:60%;
+      margin-bottom:30px;
+      
+  }
+
+  #training-slogan{
+      height:80px;
+      width:75%;
+      font-size:30px;
+    
+      letter-spacing: 8px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-family: 'Dancing Script', cursive;
+      margin-bottom:30px;
+      color:black;
+      
+  }
+
+  #training-section{
+      height:80px;
+      width:78%;
+      font-size:14px;
+      font-family:'poppins',sans-serif;
+      text-align: justify;
+      /* border:1px solid red; */
+  }
+
+ 
+  .training-container{
+    height:2950px;
+    width:80%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border:1px solid black; */
+    overflow:hidden;
+    background-color:white;
+    display:block;
+  }
+  
+  .abtnn{
+    height:100px;
+    width:100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  #training-heading{
+      height:80px;
+      width:91%;
+  font-size:44px;
+  font-family:'poppins',sans-serif;
+  text-align: justify;
+  /* border:1px solid red; */
+  margin-top:60px;
+  letter-spacing: 5px;
+  margin-left:50px;
+  text-transform: uppercase;
+  text-align: center;
+  color:orange;
+}
+#training-papers{
+  height:870px;
+  margin-left:50px;
+  text-align:justify;
+  width:91%;
+  font-size:14px;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: 100px; */
+  /* grid-template-columns: repeat(6, 1fr); */
+  font-family:'poppins',sans-serif;
+  text-align: justify;
+  /* border:1px solid red; */
+  margin-top:10px;
+}
+#training-img{
+    background-size: contain;
+    background-position:center;
+    height:550px;
+    width:98%;
+    margin:auto;
+    margin-top:70px;
+    border:1px solid grey;
+
+}
+#training-img1{
+    background-size: contain;
+    background-position:center;
+    height:350px;
+    width:98%;
+    margin:auto;
+    margin-top:70px;
+    border:1px solid grey;
+
+}
+
+
+/* training section */
+
+
+
+
+
+
+
 
 /* assosiation */
 
@@ -2044,6 +2187,302 @@ i.fa-brands:hover{
     
     
     }
+    /* updation on training section */
+    .training{
+        height:8800px;
+        MARGIN-TOP:50PX;
+        width:98%;
+        /* border:1px solid red; */
+        background-color:rgb(247, 245, 240);
+        display:flex;
+        align-items:center;
+        /* justify-content:center; */
+        flex-direction:column;
+        box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+     
+      }
+      #title-006{
+        font-size:65px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing:3px;
+        color:rgb(169, 168, 168);
+        margin-bottom:30px;
+        margin-top:100px;
+          
+      }
+      #training-main-img{
+          
+        background-size:cover;
+        background-position:center;
+        height:400px;
+        width:80%;
+        margin-bottom:30px;
+          
+      }
+    
+      #training-slogan{
+        height:250px;
+        width:90%;
+        font-size:50px;
+        letter-spacing: 8px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+        font-family: 'Dancing Script', cursive;
+        margin-bottom:30px;
+        color:black;
+        /* color:orange; */
+          
+      }
+    
+      #training-section{
+        height:400px;
+        width:90%;
+        font-size:30px;
+        font-family:'poppins',sans-serif;
+        text-align: justify;
+       
+        /* border:1px solid red; */
+      }
+    
+     
+      .training-container{
+        height:7250px;
+        margin-top:80px;
+        width:90%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        /* border:1px solid black; */
+        overflow:hidden;
+        margin-top:50px;
+        background-color:white;
+        display:block;
+      }
+      
+       
+      #training-heading{
+        height:80px;
+        width:91%;
+    font-size:60px;
+    font-family:'poppins',sans-serif;
+    text-align: justify;
+    /* border:1px solid red; */
+    margin-top:60px;
+    letter-spacing: 5px;
+    margin-left:50px;
+    text-transform: uppercase;
+    text-align: center;
+    color:orange;
+    }
+
+
+    #training-papers{
+        height:870px;
+        margin-left:50px;
+        text-align:justify;
+        width:91%;
+        font-size:14px;
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-template-rows: 100px; */
+        /* grid-template-columns: repeat(6, 1fr); */
+        font-family:'poppins',sans-serif;
+        text-align: justify;
+        /* border:1px solid red; */
+        margin-top:10px;
+      }
+
+
+    #training-img{
+        background-size: contain;
+        background-position:center;
+        height:750px;
+        width:98%;
+        margin:auto;
+        margin-top:70px;
+        border:1px solid grey;
+    
+    }
+    #training-img1{
+        background-size: contain;
+        background-position:center;
+        height:450px;
+        width:98%;
+        margin:auto;
+        margin-top:70px;
+        border:1px solid grey;
+    
+    }
+
+
+
+       /* award */
+
+      
+  .award{
+    height:6400px;
+    MARGIN-TOP:50PX;
+    width:98%;
+    /* border:1px solid red; */
+    background-color:rgb(247, 245, 240);
+    display:flex;
+    align-items:center;
+    /* justify-content:center; */
+    flex-direction:column;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+ 
+  }
+  #title-06{
+      font-size:65px;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing:3px;
+      color:rgb(169, 168, 168);
+      margin-bottom:30px;
+      margin-top:100px;
+      
+  }
+  #award-img{
+      background-image:url(award.png);
+      background-size:cover;
+      background-position:center;
+      height:400px;
+      width:80%;
+      margin-bottom:30px;
+      
+  }
+  #award-slogan{
+      height:250px;
+      width:90%;
+      font-size:50px;
+      letter-spacing: 8px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      font-family: 'Dancing Script', cursive;
+      margin-bottom:30px;
+      color:black;
+      /* color:orange; */
+      
+  }
+  #research-imgaward{
+       
+    background-size:cover;
+    background-position:center;
+    height:550px;
+    width:90%;
+   margin:auto;
+   margin-top:70px;
+   border:1px solid grey;
+
+}
+  #award-section{
+      height:300px;
+      width:90%;
+      font-size:30px;
+      font-family:'poppins',sans-serif;
+      text-align: justify;
+
+      /* border:1px solid red; */
+  }
+
+  .award-containers.active{
+    height:4500px;
+    width:90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border:1px solid black; */
+    overflow:hidden;
+    background-color:white; display:block;
+   
+}
+.award-containers{
+    display:none;
+}
+.award-container{
+    display:none;
+}
+  .award-container.active{
+      height:4500px;
+      width:90%;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      /* border:1px solid black; */
+      overflow:hidden;
+      background-color:white;
+      display:block;
+    
+     
+  }
+  #award-heading{
+      height:80px;
+      width:91%;
+  font-size:60px;
+  font-family:'poppins',sans-serif;
+  text-align: justify;
+  /* border:1px solid red; */
+  margin-top:60px;
+  letter-spacing: 5px;
+  margin-left:50px;
+  text-transform: uppercase;
+  text-align: center;
+  color:orange;
+}
+.abtn{
+    height:300px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round-buttons{
+    height:70px;
+    width:280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-family:'poppins',sans-serif;
+    font-size:22px;
+    transition: 0.7s;
+    letter-spacing: 1px;
+    background-color: orange;
+}
+.round-buttons a{
+    color:white;
+    text-decoration:none;
+ 
+
+}
+ .round-buttons:hover{
+    letter-spacing: 3px;
+}
+
+#award-paperss{
+    height:3000px;
+    margin-left:40px;
+    text-align:justify;
+    width:91%;
+    font-size:30px;
+    font-family:'poppins',sans-serif;
+    text-align: justify;
+    /* border:1px solid red; */
+    margin-top:10px;
+   
+  }
+
+#award-papers{
+  height:3000px;
+  margin-left:40px;
+  text-align:justify;
+  width:91%;
+  font-size:30px;
+  font-family:'poppins',sans-serif;
+  text-align: justify;
+  /* border:1px solid red; */
+  margin-top:10px;
+ 
+}
+    /* award */
+
     @keyframes example {
         0%   {transform:scale(4.5);}
         25%  {transform:scale(5.5);}
@@ -2062,7 +2501,7 @@ i.fa-brands:hover{
     }
     #Frame-container{
         
-        height:47900px;
+        height:58900px;
         width:100%;
         background-color:rgb(255, 255, 255);
         display:flex;
@@ -2953,172 +3392,7 @@ display:none;
     /* research section */
 
 
-    /* award */
-
-      
-  .award{
-    height:6400px;
-    MARGIN-TOP:50PX;
-    width:98%;
-    /* border:1px solid red; */
-    background-color:rgb(247, 245, 240);
-    display:flex;
-    align-items:center;
-    /* justify-content:center; */
-    flex-direction:column;
-    box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
  
-  }
-  #title-06{
-      font-size:65px;
-      font-family: 'Poppins', sans-serif;
-      letter-spacing:3px;
-      color:rgb(169, 168, 168);
-      margin-bottom:30px;
-      margin-top:100px;
-      
-  }
-  #award-img{
-      background-image:url(award.png);
-      background-size:cover;
-      background-position:center;
-      height:400px;
-      width:80%;
-      margin-bottom:30px;
-      
-  }
-  #award-slogan{
-      height:250px;
-      width:90%;
-      font-size:50px;
-      letter-spacing: 8px;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      text-align:center;
-      font-family: 'Dancing Script', cursive;
-      margin-bottom:30px;
-      color:black;
-      /* color:orange; */
-      
-  }
-  #research-imgaward{
-       
-    background-size:cover;
-    background-position:center;
-    height:550px;
-    width:90%;
-   margin:auto;
-   margin-top:70px;
-   border:1px solid grey;
-
-}
-  #award-section{
-      height:300px;
-      width:90%;
-      font-size:30px;
-      font-family:'poppins',sans-serif;
-      text-align: justify;
-
-      /* border:1px solid red; */
-  }
-
-  .award-containers.active{
-    height:4500px;
-    width:90%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    /* border:1px solid black; */
-    overflow:hidden;
-    background-color:white; display:block;
-   
-}
-.award-containers{
-    display:none;
-}
-.award-container{
-    display:none;
-}
-  .award-container.active{
-      height:4500px;
-      width:90%;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      /* border:1px solid black; */
-      overflow:hidden;
-      background-color:white;
-      display:block;
-    
-     
-  }
-  #award-heading{
-      height:80px;
-      width:91%;
-  font-size:60px;
-  font-family:'poppins',sans-serif;
-  text-align: justify;
-  /* border:1px solid red; */
-  margin-top:60px;
-  letter-spacing: 5px;
-  margin-left:50px;
-  text-transform: uppercase;
-  text-align: center;
-  color:orange;
-}
-.abtn{
-    height:300px;
-    width:100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.round-buttons{
-    height:70px;
-    width:280px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:white;
-    font-family:'poppins',sans-serif;
-    font-size:22px;
-    transition: 0.7s;
-    letter-spacing: 1px;
-    background-color: orange;
-}
-.round-buttons a{
-    color:white;
-    text-decoration:none;
- 
-
-}
- .round-buttons:hover{
-    letter-spacing: 3px;
-}
-
-#award-paperss{
-    height:3000px;
-    margin-left:40px;
-    text-align:justify;
-    width:91%;
-    font-size:30px;
-    font-family:'poppins',sans-serif;
-    text-align: justify;
-    /* border:1px solid red; */
-    margin-top:10px;
-   
-  }
-
-#award-papers{
-  height:3000px;
-  margin-left:40px;
-  text-align:justify;
-  width:91%;
-  font-size:30px;
-  font-family:'poppins',sans-serif;
-  text-align: justify;
-  /* border:1px solid red; */
-  margin-top:10px;
- 
-}
-    /* award */
 
     /* testimonials */
 
