@@ -2170,23 +2170,18 @@ i.fa-brands:hover{
     .button-kyd{
         visibility: visible;  border-radius: 50px;position:absolute;top:50px;right:20px; outline:none;border: center;background: #f88f18;height: 70px;display: flex;align-items: center;justify-content: center;text-align:center;width:250px;cursor: pointer;
     }
-
-    #preloader{
-        background:url(DKSlog.jpg) no-repeat center center;
-        z-index:100;
-        /* background-color:rgba(43,51,62,255); */
-        background-color:rgba(43,51,62,255);
-        height:100vh;
+    #Frame-container{
+   
+        height:24000px;
         width:100%;
-        position:fixed;
-        background-size:5%;
-        transform: scale(8.5);
-        animation-name:example;
-        animation-iteration-count: infinite;
-        animation-duration:4s;
-    
-    
+        background-color:rgb(255, 255, 255);
+        display:flex;
+        align-items:center; 
+        /* justify-content:center;   */
+        flex-direction:column;
     }
+
+
     /* updation on training section */
     .training{
         height:8800px;
