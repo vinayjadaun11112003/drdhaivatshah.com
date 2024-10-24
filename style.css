@@ -2170,10 +2170,15 @@ i.fa-brands:hover{
     .button-kyd{
         visibility: visible;  border-radius: 50px;position:absolute;top:50px;right:20px; outline:none;border: center;background: #f88f18;height: 70px;display: flex;align-items: center;justify-content: center;text-align:center;width:250px;cursor: pointer;
     }
+    body{
+        height:100vh;
+        width:100%;
+    }
     #Frame-container{
    
         height:24000px;
         width:100%;
+        
         background-color:rgb(255, 255, 255);
         display:flex;
         align-items:center; 
