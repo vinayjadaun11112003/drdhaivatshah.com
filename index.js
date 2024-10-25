@@ -450,23 +450,23 @@ function setNextCardRight() {
 leftArrow.addEventListener("click", setNextCardLeft);
 rightArrow.addEventListener("click", setNextCardRight);
 
-surpriseMeBtn.addEventListener("click", () => {
-    if (chicken.style.opacity === "0") {
-        chicken.style.opacity = "1";
-        imgDiv.classList.add("move-head");
-        surpriseMeBtn.innerText = "Remove the chicken";
-        surpriseMeBtn.classList.remove("surprise-me-btn");
-        surpriseMeBtn.classList.add("hide-chicken-btn");
-        isChickenVisible = true;
-    } else if (chicken.style.opacity === "1") {
-        chicken.style.opacity = "0";
-        imgDiv.classList.remove("move-head");
-        surpriseMeBtn.innerText = "Surprise me";
-        surpriseMeBtn.classList.add("surprise-me-btn");
-        surpriseMeBtn.classList.remove("hide-chicken-btn");
-        isChickenVisible = false;
-    }
-});
+// surpriseMeBtn.addEventListener("click", () => {
+//     if (chicken.style.opacity === "0") {
+//         chicken.style.opacity = "1";
+//         imgDiv.classList.add("move-head");
+//         surpriseMeBtn.innerText = "Remove the chicken";
+//         surpriseMeBtn.classList.remove("surprise-me-btn");
+//         surpriseMeBtn.classList.add("hide-chicken-btn");
+//         isChickenVisible = true;
+//     } else if (chicken.style.opacity === "1") {
+//         chicken.style.opacity = "0";
+//         imgDiv.classList.remove("move-head");
+//         surpriseMeBtn.innerText = "Surprise me";
+//         surpriseMeBtn.classList.add("surprise-me-btn");
+//         surpriseMeBtn.classList.remove("hide-chicken-btn");
+//         isChickenVisible = false;
+//     }
+// });
 
 window.addEventListener("resize", () => {
     description.style.height = "100%";
