@@ -1,22 +1,27 @@
 
 *{
     box-sizing:border-box;
-    padding:0;
-    margin:0;
+    padding:0px;
+    margin:0px;
   
 }
 body{
     height:100vh;
-    width:100%;
+    /* width:100%; */
+    width: 100%;
+   
 }
+
 html{
     scroll-behavior:smooth;
+ 
 }
 .btn-phone{
     display:hidden;
 }
 #Frame-container{
    
+    /* outline:1px solid red; */
     height:24000px;
     width:100%;
     background-color:rgb(255, 255, 255);
@@ -27,6 +32,7 @@ html{
 }
 .navbarm{
     display:none;
+    /* outline:1px solid red; */
 }
 .button-kyd{
     visibility: hidden;  border-radius: 50px;position:absolute;top:50px;right:20px; outline:none;border: center;background: #f88f18;height: 70px;display: flex;align-items: center;justify-content: center;text-align:center;width:250px;cursor: pointer;
@@ -2178,8 +2184,10 @@ i.fa-brands:hover{
 @media screen and (min-device-width:350px) and (max-device-width:500px){
     *{
         box-sizing:border-box;
-        padding:0;
-        margin:0;
+        padding:0px;
+        margin:0px;
+        /* width: 100vw; */
+        
       
     }
     .button-kyd{
