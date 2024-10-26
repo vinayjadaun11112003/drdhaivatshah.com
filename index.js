@@ -10,6 +10,22 @@ function readlessreview(rs){
     document.getElementById(rs).classList.add("active");
 }
 
+// var preloader = document.getElementById("preloader");
+// window.addEventListener("load", function(){
+//     setTimeout(function() {
+//         preloader.style.display="none";
+// }, 5000);
+    
+// }
+// )
+
+window.onload = function() {
+    // Show the loader for 5 seconds
+    setTimeout(function() {
+      document.getElementById("preloader").style.display = "none";
+      document.getElementById("content").style.display = "block";
+    }, 5000); // 5000ms = 5 seconds
+  };
 
 
 

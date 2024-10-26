@@ -1,22 +1,27 @@
 
 *{
     box-sizing:border-box;
-    padding:0;
-    margin:0;
+    padding:0px;
+    margin:0px;
   
 }
 body{
     height:100vh;
-    width:100%;
+    /* width:100%; */
+    width: 100%;
+   
 }
+
 html{
     scroll-behavior:smooth;
+ 
 }
 .btn-phone{
     display:hidden;
 }
 #Frame-container{
    
+    /* outline:1px solid red; */
     height:24000px;
     width:100%;
     background-color:rgb(255, 255, 255);
@@ -27,6 +32,7 @@ html{
 }
 .navbarm{
     display:none;
+    /* outline:1px solid red; */
 }
 .button-kyd{
     visibility: hidden;  border-radius: 50px;position:absolute;top:50px;right:20px; outline:none;border: center;background: #f88f18;height: 70px;display: flex;align-items: center;justify-content: center;text-align:center;width:250px;cursor: pointer;
@@ -103,11 +109,26 @@ html{
     position:relative;
     display:flex;
     align-items:center;
+    
+
+
     /* justify-content:center; */
     /* flex-direction:column; */
     /* opacity:0.7; */
     /* border:2px solid rgb(0, 0, 0); */
-}
+
+
+
+    
+    /* width: 100%;
+    height: 800px;
+    position: relative;
+    display: flex;
+    align-items: center; */
+} 
+
+
+
 .slogan{
     height:150px;
     width:1400px;
@@ -975,7 +996,7 @@ display:none;
 
 /* training section */
 .training{
-    height:5000px;
+    height:3800px;
     MARGIN-TOP:50PX;
     width:98%;
     /* border:1px solid red; */
@@ -1034,7 +1055,7 @@ display:none;
 
  
   .training-container{
-    height:3550px;
+    height:2950px;
     width:80%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* border:1px solid black; */
@@ -2135,15 +2156,15 @@ i.fa-brands:hover{
 
 /* HTML: <div class="loader"></div> */
 #preloader{
-    background:url(loadern.gif) no-repeat center center;
+    background:url(DKSlog.jpg) no-repeat center center;
     z-index:100;
-    background-color:white;
-    /* background-colorgba(43,51,62,255)r: rgb(255, 255, 255); */
+    background-color:rgba(43,51,62,255);
+    /* background-color: rgb(255, 255, 255); */
     height:100vh;
     width:100%;
     position:fixed;
     background-size:5%;
-    /* transform: scale(3.5); */
+    transform: scale(3.5);
     animation-name:example;
     animation-duration:4s;
     animation-iteration-count: infinite;
@@ -2151,45 +2172,47 @@ i.fa-brands:hover{
 
 }
 @keyframes example {
-    0%   {transform:scale(1.1);}
-    25%  {transform:scale(1.3);}
-    50%  {transform:scale(1.1);}
+    0%   {transform:scale(1.5);}
+    25%  {transform:scale(2);}
+    50%  {transform:scale(1.5);}
     75% {
-    transform:scale(1.3);
+    transform:scale(2);
     }
-    100% {transform:scale(1.1);}
+    100% {transform:scale(1.5);}
   }
 /* preloader */
 @media screen and (min-device-width:350px) and (max-device-width:500px){
     *{
         box-sizing:border-box;
-        padding:0;
-        margin:0;
+        padding:0px;
+        margin:0px;
+        /* width: 100vw; */
+        
       
     }
     .button-kyd{
         visibility: visible;  border-radius: 50px;position:absolute;top:50px;right:20px; outline:none;border: center;background: #f88f18;height: 70px;display: flex;align-items: center;justify-content: center;text-align:center;width:250px;cursor: pointer;
     }
-
-    #preloader{
-        background:url(loadern.gif) no-repeat center center;
-        z-index:100;
-        /* background-color:rgba(43,51,62,255); */
-        background-color:white;
+    body{
         height:100vh;
         width:100%;
-        position:fixed;
-        background-size:5%;
-        /* transform: scale(-8.5); */
-        animation-name:example;
-        animation-iteration-count: infinite;
-        animation-duration:4s;
-    
-    
     }
+    #Frame-container{
+   
+        height:24000px;
+        width:100%;
+        
+        background-color:rgb(255, 255, 255);
+        display:flex;
+        align-items:center; 
+        /* justify-content:center;   */
+        flex-direction:column;
+    }
+
+
     /* updation on training section */
     .training{
-        height:10100px;
+        height:8800px;
         MARGIN-TOP:50PX;
         width:98%;
         /* border:1px solid red; */
@@ -2248,7 +2271,7 @@ i.fa-brands:hover{
     
      
       .training-container{
-        height:8450px;
+        height:7250px;
         margin-top:80px;
         width:90%;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
