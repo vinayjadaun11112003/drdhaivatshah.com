@@ -843,7 +843,7 @@ display:none;
   /* awards */
   
   .award{
-      height:2300px;
+      height:2700px;
       MARGIN-TOP:50PX;
       width:98%;
       /* border:1px solid red; */
@@ -904,7 +904,7 @@ display:none;
         /* border:1px solid red; */
     }
     .award-containers.active{
-        height:1250px;
+        height:1350px;
         width:80%;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         /* border:1px solid black; */
@@ -1989,7 +1989,7 @@ h1 {
       /* border:1px solid red; */
   }
   #gallary-container{
-      height:1200px;
+      height:1250px;
       width:80%;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       /* border:1px solid black; */
@@ -3837,7 +3837,7 @@ display:none;
       /* border:1px solid red; */
   }
   #gallary-container{
-      height:2700px;
+      height:2900px;
       width:90%;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       /* border:1px solid black; */
