@@ -263,7 +263,7 @@ html{
     background-color:rgb(255, 255, 255);
     position:absolute;
     border:1px solid rgb(242, 135, 5);
-    bottom:50px;
+    bottom:-60px;
     left:0px;
     outline:none;
     letter-spacing:1px;
@@ -2774,7 +2774,7 @@ i.fa-brands:hover{
         color:white;
         position:absolute;
       
-        bottom:340px;
+        bottom:10px;
         left:0px;
         outline:none;
         letter-spacing:1px;
@@ -2890,7 +2890,7 @@ i.fa-brands:hover{
     }
     /* hall of fame page */
     .halloffame{
-        height:2200px;
+        height:3200px;
         MARGIN-TOP:50PX;
         box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
         width:98%;
