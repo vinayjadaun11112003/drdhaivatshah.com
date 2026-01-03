@@ -17,7 +17,7 @@ html{
 }
 #Frame-container{
    
-    height:24000px;
+    height:25000px;
     width:100%;
     background-color:rgb(255, 255, 255);
     display:flex;
@@ -700,7 +700,7 @@ color:white;
   /* research section */
 
   .research{
-    height:3800px;
+    height:4000px;
     width:98%;
     MARGIN-TOP:50PX;
     /* border:1px solid red; */
@@ -793,7 +793,7 @@ color:white;
 display:none;
 }
 .research-containers.active{
-    height:2350px;
+    height:2500px;
     width:80%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* border:1px solid red; */
@@ -827,7 +827,7 @@ display:none;
     margin-left:50px;
 }
 #research-paperss{
-    height:1370px;
+    height:1500px;
     width:91%;
     font-size:14px;
     font-family:'poppins',sans-serif;
@@ -2501,7 +2501,7 @@ i.fa-brands:hover{
     }
     #Frame-container{
         
-        height:58900px;
+        height:59900px;
         width:100%;
         background-color:rgb(255, 255, 255);
         display:flex;
@@ -3264,7 +3264,7 @@ i.fa-brands:hover{
     /* research section */
 
     .research{
-        height:13700px;
+        height:15000px;
         width:98%;
         MARGIN-TOP:50PX;
         /* border:1px solid red; */
@@ -3329,7 +3329,7 @@ i.fa-brands:hover{
         /* border:1px solid red; */
     }
     .research-container.active{
-        height:11200px;
+        height:12500px;
         width:90%;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         /* border:1px solid red; */
@@ -3346,7 +3346,7 @@ i.fa-brands:hover{
 display:none;
     }
     .research-containers.active{
-        height:11500px;
+        height:12500px;
         width:90%;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         /* border:1px solid red; */
@@ -3370,7 +3370,7 @@ display:none;
         text-align: center;
     }
     #research-paperss{
-        height:1370px;
+        height:1470px;
         width:91%;
         font-size:30px;
         font-family:'poppins',sans-serif;
@@ -3380,7 +3380,7 @@ display:none;
         margin-left:40px;
     }
     #research-papers{
-        height:1370px;
+        height:1470px;
         width:91%;
         font-size:33px;
         font-family:'poppins',sans-serif;
@@ -4232,7 +4232,7 @@ display:none;
     /* blogs */
     /* contact */
     .contact{
-        height:1900px;
+        height:2000px;
         MARGIN-TOP:50PX;
         width:98%;
         /* border:1px solid red; */
